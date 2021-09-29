@@ -1,7 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+h1 {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .die-container {
+  background-color: white;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 2px solid darkslategray;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .dice {
@@ -12,5 +32,12 @@
 }
 
 button {
-  margin-top: 10px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 20px;
 }
