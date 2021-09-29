@@ -1,0 +1,16 @@
+.die-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+}
