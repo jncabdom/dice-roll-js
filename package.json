@@ -1,5 +1,5 @@
 {
-  "name": "lanzar-dados-js",
+  "name": "dice-roll-js",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
